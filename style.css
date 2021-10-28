@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.first_part{
+    font-family: 'Montserrat', sans-serif;
+    width: 1440px;
+    height: 711px;
+    left: 0px;
+    top: 0px;
+    background: #FFF2F3;
+
+}
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline-flex;
+}
+.navbar ul li a{
+    display: block;
+    color: #737373;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 0.2px; 
+    font-size: 14px;   
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid#96BB7C;
+    background: #FFF2F3;
+    color: #96BB7C;
+    border-radius: 5px;
+}
+.navbar ul .btn1{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #FFF2F3;
+    color: #96BB7C;
+}
+
+.btn:hover{
+    background: #96BB7C;
+    border-radius: 5px;
+    color: white;
+}
+.navbar ul .btn1:hover{
+    background: #96BB7C;
+    color: white;
+    border-radius: 5px;
+}
+.Text{
+    position: absolute;
+    width: 473px;
+    height: 386px;
+    left: calc(50% - 573px/2 - 301px);
+    top: 148px;
+}
+.Image{
+    position: absolute;
+    left: 757px;
+    top: 50px;
+    bottom: 0px;
+}
+.Second_part{
+    font-family: 'Montserrat', sans-serif;
+    width: 1440px;
+    height: 671px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+
+.Text1{
+    position: absolute;
+    width: 470px;
+    height: 250px;
+    top: 200px;
+    left: calc(50% - 573px/2 - 301px);
+   
+}
+.Red_border{
+    width: 80px;
+    height: 5px;
+    border: 1px solid #E74040;
+    background-color: #E74040;
+}
+.card{
+    position: absolute;
+    float: left;
+    width: 200px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    margin: 5px 5px 5px 5px;
+}
+.card_content{
+   float: left;
+    width: 600px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #96BB7C;
+    background-color: #96BB7C;
+    border-radius: 5px;
+}
+.Red_border1{
+    font-family: 'Montserrat', sans-serif;
+    width: 50px;
+    height: 2px;
+    border: 1px solid #E74040;
+    background-color: #E74040;
+}
+.Third_part{
+    width: 1440px;
+    height: 817px;
+    position: relative;
+    display: flex;
+
+}
+.Image1{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.Text2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 300px;
+    left: 800px;
+}
+.Red_border2{
+    width: 50px;
+    height: 2px;
+    border: 1px solid #E74040;
+    background-color: #E74040;
+}
+.Fourth_part{
+    font-family: 'Montserrat', sans-serif;
+    width:1440px;
+    height: 952px;
+    position: relative;
+
+}
+.Text4{
+    position: absolute;
+    top:120px;
+    left:200px;
+    width: 500px;
+}
+.card1{
+    position: absolute;
+    top:450px;
+    left: 200px;
+}
+.card_content1{
+    float: left;
+    display: flex;
+    width: 600px;
+}
+.image2{
+    position: relative;
+}
+.sale{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
