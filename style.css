@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.margin{
+    margin: 15%;
+}
  /* 1st start  */
 .first_part{
-    font-family: 'Montserrat', sans-serif;
-    width: 1440px;
     height: 711px;
-    left: 0px;
-    top: 0px;
     background: #FFF2F3;
 }
 .navbar ul{
@@ -37,9 +40,10 @@
 .navbar ul .btn1{
     width: 100px;
     height: 50px;
-    border: none;
+    border: 1px solid#96BB7C;
     background: #FFF2F3;
     color: #96BB7C;
+    border-radius: 5px;
 }
 
 .btn:hover{
@@ -61,7 +65,7 @@
 }
 .cover{
     position: absolute;
-    left: 757px;
+    left: 835px;
     top: 50px;
     bottom: 0px;
 }
@@ -69,21 +73,14 @@
 
 /* 2nd start */
 .Second_part{
-    font-family: 'Montserrat', sans-serif;
-    width: 1440px;
     height: 671px;
-    left: 0px;
-    top: 0px;
     position: relative;
+    border: 1px solid white;
 }
-
 .Text1{
     position: absolute;
     width: 470px;
-    height: 200px;
-    top: 250px;
-    left: 200px;
-   
+    height: 200px; 
 }
 .Red_border{
     width: 80px;
@@ -97,14 +94,13 @@
     height: 350px;
     background: #FFFFFF;
     margin: 5px 5px 5px 5px;
-    left: 680px;
-    top: 200px;
+    left: 700px;
     display: flex;
 }
 .card_content{
     position: relative;
     width: 270px;
-    height: 300px;
+    height: 292px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     margin: 20px;
 }
@@ -119,7 +115,7 @@
 }
 .Des1{
     position: absolute;
-    top: 60px;
+    top: 80px;
     left: 40px;
 }
 .icon{
@@ -138,22 +134,23 @@
 
 /* 3rd start */
 .Third_part{
-    width: 1440px;
     height: 817px;
     position: relative;
     display: flex;
+    border: 1px solid white;
 }
 .Image1{
     position: absolute;
-    top: 150px;
-    left: 150px;
+    left: 9.81%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%
 }
 .Text2{
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 300px;
-    left: 800px;
+    left: 900px;
 }
 .Red_border2{
     width: 50px;
@@ -165,21 +162,19 @@
 
 /* 4th start */
 .Fourth_part{
-    font-family: 'Montserrat', sans-serif;
-    width:1440px;
     height: 952px;
     position: relative;
+    border: 1px solid white;
 }
 .Text4{
     position: absolute;
     top:120px;
-    left:200px;
     width: 500px;
 }
 .card1{
     position: absolute;
-    top:450px;
-    left: 200px;
+    top:420px;
+    display: flex;
 }
 .card_content1{
     float: left;
@@ -245,21 +240,19 @@
 
 /* 5th start */
 .Fifth_part{
-    font-family: 'Montserrat', sans-serif;
-    width:1440px;
     height: 875px;
     position: relative;
+    border: 1px solid white;
 }
 .Text5{
     position: absolute;
     top:120px;
-    left:200px;
     width: 500px;
 }
 .card2{
     position: absolute;
-    top:450px;
-    left: 200px;    
+    top:400px;
+    display: flex;
 }
 .card_content2{
     float: left;
@@ -286,22 +279,19 @@
 
 /* 6th start */
 .Sixth_part{
-    font-family: 'Montserrat', sans-serif;
-    width:1440px;
     height: 850px;
     position: relative;
+    border: 1px solid white;
     
 }
 .Text6{
     position: absolute;
     top:70px;
-    left:200px;
     width: 500px;
 }
 .card3{
     position: absolute;
     top:350px;
-    left: 200px;   
 }
 .card_content3{
     float: left;
@@ -325,11 +315,10 @@
 
 /* 7th start */
 .Seventh_part{
-    font-family: 'Montserrat', sans-serif;
-    width:1440px;
     height: 600px;
     position: relative;
     background: #FFF2F3;
+    border: 1px solid white;
 }
 .Text7{
     position: absolute;
@@ -347,24 +336,23 @@
 
 /* footer start */
 .footer_1{
-    font-family: 'Montserrat', sans-serif;
-    width:1440px;
-    height: 280px;
-    margin: 20px 150px 20px 150px;
+    height: 200px;
+    margin: 0px 15% 0px 15% ;
 }
 .footer_2{
     display: flex;
     position: relative;
-    width: 1440px;
     height: 80px;
+    margin:  0px 15% 0px 15%;
+    justify-content: space-between;
 }
-.footer_text{
+/* .footer_text{
     position: absolute;
     left: 180px;
 }
 .footer-icon{
     position: absolute;
     left: 1050px;
-}
+}  */
 
 /* footer end */
